@@ -1,10 +1,13 @@
-# Glowup Vibes
+# 🌟 Glowup Vibes 🌟
 
-[![style: very good analysis][very_good_analysis_badge]][very_good_analysis_link]
-[![Powered by Mason](https://img.shields.io/endpoint?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge)](https://github.com/felangel/mason)
+<a title="Pub" href="https://pub.dev/packages/glowup_vibes"><img src="https://img.shields.io/pub/v/glowup_vibes.svg?style=popout"/></a>
 [![License: MIT][license_badge]][license_link]
 
-goated dart language
+## Goated Dart language
+
+Goated 🐐 Dart language.
+
+Inspired by this [Babel plugin][babel-silliness]
 
 ## Installation 💻
 
@@ -16,9 +19,68 @@ Install via `dart pub add`:
 dart pub add glowup_vibes
 ```
 
+## Wat? 🤔
+
+Glowup Vibes is a Dart package that adds some "internet slang" to Dart vocabulary.
+
+## Why?
+
+Because.
+
+## API 📖
+
+### Top level getters:
+
+- `onGod`: `true`
+- `cap`: `false`
+- `noCap`: `true`
+- `yesnt`: `false`
+- `nice`: `69`
+- `outOfPocket`: `double.infinity`
+- `F`: Returns a `Never`. Throws a respectful error.
+- `imded`: Calls [exit][exit] with `code` `1`.
+- `ragequit`: Calls [exit][exit] with `code` `1`.
+- `cya`: Calls [exit][exit] with `code` `0`.
+
+### Log APIs:
+
+Based on [Mason Logger][mason_logger]
+
+- `lowkey.stan(message)`: `logger.info(message)`
+- `lowkey.sus(message)`: `logger.warn(message)`
+- `lowkey.cringe(message)`: `logger.err(message)`
+- `lowkey.drip(message)`: `logger.detail(message)`
+- `lowkey.tea(message)`: `logger.success(message)`
+- `lowkey.flex(message)` : `logger.success(message)`
+
+### Future APIs:
+
+- `future.letItCook((value) { ... }, ohnoes: () { ... })`: `future.then((value) { ... }, onError: () { ... })`
+- `future.busted((error) { ... })`: `future.catchError((error) { ... })`
+
+### String APIs:
+
+- `'lets go FAM'.lowkey`: `letsgo fam`
+- `'lets go FAM'.lowkey`: `LETSGO FAM`
+- `'lets go FAM'.mock`: `lEtsgO Fam`
+
+### Other APIs:
+
+| API                                    | Equivalent                                       |
+|----------------------------------------|--------------------------------------------------|
+| ```dart fr(assertion) ```              | ```dart assert(assertion); ```                   |
+| ```dart cook(value) ```                | ```dart Future.value(value) ```                  |
+| ```dart derp(error) ```                | ```dart Future.error(error) ```                  |
+| ```dart holdup([future1, future2]) ``` | ```dart Future.wait([future1, future2]) ```      |
+| ```dart yeet(exception) ```            | ```dart throw exception ```                      |
+| ```dart brb(Duration(seconds: 1)) ```  | ```dart Future.delayed(Duration(seconds: 1)) ``` |
+| ```dart typah(something) ```           | ```dart Type typah<T>(T wat) => T ```            |
+
+
 ---
-
-
+[mason_logger]: https://pub.dev/packages/mason_logger
+[babel-silliness]: https://github.com/christina-de-martinez/babel-plugin-glowup-vibes
+[exit]: https://api.dart.dev/dart-io/exit.html
 [dart_install_link]: https://dart.dev/get-dart
 [github_actions_link]: https://docs.github.com/en/actions/learn-github-actions
 [license_badge]: https://img.shields.io/badge/license-MIT-blue.svg

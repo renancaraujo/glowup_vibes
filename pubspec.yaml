@@ -1,12 +1,18 @@
 name: glowup_vibes
-description: goated dart language
+description: Goated Dart language
 version: 0.0.1
-
+topics: [meme]
+repository: https://github.com/renancaraujo/glowup_vibes
+issue_tracker: https://github.com/renancaraujo/glowup_vibes/issues
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  mason_logger: ^0.2.10
 
 dev_dependencies:
   mocktail: ^1.0.0
   test: ^1.19.2
   very_good_analysis: ^5.1.0
+
