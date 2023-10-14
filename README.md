@@ -68,13 +68,13 @@ Based on [Mason Logger][mason_logger]
 
 | API                                    | Equivalent                                       |
 |----------------------------------------|--------------------------------------------------|
-| ```dart fr(assertion) ```              | ```dart assert(assertion); ```                   |
-| ```dart cook(value) ```                | ```dart Future.value(value) ```                  |
-| ```dart derp(error) ```                | ```dart Future.error(error) ```                  |
-| ```dart holdup([future1, future2]) ``` | ```dart Future.wait([future1, future2]) ```      |
-| ```dart yeet(exception) ```            | ```dart throw exception ```                      |
-| ```dart brb(Duration(seconds: 1)) ```  | ```dart Future.delayed(Duration(seconds: 1)) ``` |
-| ```dart typah(something) ```           | ```dart Type typah<T>(T wat) => T ```            |
+| ``` fr(assertion) ```              | ``` assert(assertion); ```                   |
+| ``` cook(value) ```                | ``` Future.value(value) ```                  |
+| ``` derp(error) ```                | ``` Future.error(error) ```                  |
+| ``` holdup([future1, future2]) ``` | ``` Future.wait([future1, future2]) ```      |
+| ``` yeet(exception) ```            | ``` throw exception ```                      |
+| ``` brb(Duration(seconds: 1)) ```  | ``` Future.delayed(Duration(seconds: 1)) ``` |
+| ``` typah(something) ```           | ``` Type typah<T>(T wat) => T ```            |
 
 
 ---
