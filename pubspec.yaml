@@ -1,9 +1,10 @@
 name: glowup_vibes
-description: Goated Dart language
-version: 0.0.1
+description: Goated Dart language. Glowup Vibes is a Dart package that adds some "internet slang" to Dart vocabulary.
+version: 1.0.0
 topics: [meme]
 repository: https://github.com/renancaraujo/glowup_vibes
 issue_tracker: https://github.com/renancaraujo/glowup_vibes/issues
+homepage: https://github.com/renancaraujo/glowup_vibes
 
 environment:
   sdk: ">=3.0.0 <4.0.0"

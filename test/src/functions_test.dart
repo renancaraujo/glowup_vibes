@@ -37,7 +37,7 @@ void main() {
   });
 
   test('typah', () {
-    expect(typah(nice), equals(num));
+    expect(typah(nice), equals(int));
     expect(typah('nice'), equals(String));
   });
 }
