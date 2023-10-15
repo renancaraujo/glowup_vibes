@@ -1,29 +1,31 @@
 ---
 name: Bug Report
-about: Create a report to help us improve
-title: "fix: "
+about: Oh geez something's broken
+title: "geez: "
 labels: bug
 ---
 
 **Description**
 
-A clear and concise description of what the bug is.
+Big yikes, something's broken. Please describe the bug in detail here.
 
 **Steps To Reproduce**
 
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+How to Make It Happen Again
+
+1. Hit up '...' 
+2. Tap on '....' 
+3. Scroll on down to '....' 
+4. Boom, you'll spot that error. 💥
 
 **Expected Behavior**
 
-A clear and concise description of what you expected to happen.
+A straight-up and no-nonsense breakdown of what you was hopin' for.
 
 **Screenshots**
 
-If applicable, add screenshots to help explain your problem.
+Yo, if it makes sense, drop some pics to make your problem crystal clear. 📸🤔
 
 **Additional Context**
 
-Add any other context about the problem here.
+Throw in any other deets 'bout the issue right here, fam. Share the whole scoop. 💬🔍

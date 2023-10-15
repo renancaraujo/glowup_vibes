@@ -19,15 +19,15 @@ void vibeCheck() async {
 
   final wait = brb(Duration(seconds: 1));
 
-  final somthing = cook(nice);
+  final someCooking = cook(nice);
 
-  holdup([wait, somthing])
+  holdup([wait, someCooking])
       .letItCook((value) => lowkey.drip('Letisgo'))
       .busted(() {
     lowkey.cringe('yikes');
   });
 
-  fr(typah(nice) == double);
+  fr(typah(nice) == int);
 
   if (!vibe) {
     if (!rizz) {

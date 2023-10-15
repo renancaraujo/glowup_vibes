@@ -3,15 +3,16 @@
 <a title="Pub" href="https://pub.dev/packages/glowup_vibes"><img src="https://img.shields.io/pub/v/glowup_vibes.svg?style=popout"/></a>
 [![License: MIT][license_badge]][license_link]
 
-## Goated Dart language
-
 Goated 🐐 Dart language.
 
-Inspired by this [Babel plugin][babel-silliness]
+This package is highkey inspired by this [Babel plugin][babel-silliness]
+
+See the OG yt short: <https://www.youtube.com/watch?v=vgcbwv_3WDU>
 
 ## Installation 💻
 
-**❗ In order to start using Glowup Vibes you must have the [Dart SDK][dart_install_link] installed on your machine.**
+**❗To get your Glowup Vibes on, make sure you've got the [Dart SDK][dart_install_link] installed
+on your machine.**
 
 Install via `dart pub add`:
 
@@ -21,53 +22,61 @@ dart pub add glowup_vibes
 
 ## Wat? 🤔
 
-Glowup Vibes is a Dart package that adds some "internet slang" to Dart vocabulary.
+Glowup Vibes is a Dart package that spices up Dart's lingo with some "internet slang" flavor. 🚀📚💬
 
 ## Why?
 
-Because.
+'cause.
 
 ## API 📖
 
-### Top level getters:
+### Top-level getters:
 
-- `onGod`: `true`
-- `cap`: `false`
-- `noCap`: `true`
-- `yesnt`: `false`
-- `nice`: `69`
-- `outOfPocket`: `double.infinity`
-- `F`: Returns a `Never`. Throws a respectful error.
-- `imded`: Calls [exit][exit] with `code` `1`.
-- `ragequit`: Calls [exit][exit] with `code` `1`.
-- `cya`: Calls [exit][exit] with `code` `0`.
+| With rizz     | No Rizz (original)                            |
+|---------------|-----------------------------------------------|
+| `onGod`       | `true`                                        |
+| `cap`         | `false`                                       |
+| `noCap`       | `true`                                        |
+| `yesnt`       | `false`                                       |
+| `nice`        | `69`                                          |
+| `outOfPocket` | `double.infinity`                             |
+| `F`           | Returns a `Never`. Throws a respectful error. |
+| `imded`       | Calls [exit][exit] with `code` `1`.           |
+| `ragequit`    | Calls [exit][exit] with `code` `nice`.        |
+| `cya`         | Calls [exit][exit] with `code` `0`.           |
 
 ### Log APIs:
 
-Based on [Mason Logger][mason_logger]
+Based [Mason Logger][mason_logger]
 
-- `lowkey.stan(message)`: `logger.info(message)`
-- `lowkey.sus(message)`: `logger.warn(message)`
-- `lowkey.cringe(message)`: `logger.err(message)`
-- `lowkey.drip(message)`: `logger.detail(message)`
-- `lowkey.tea(message)`: `logger.success(message)`
-- `lowkey.flex(message)` : `logger.success(message)`
+| With rizz                | No Rizz (original)        |
+|--------------------------|---------------------------|
+| `lowkey.stan(message)`   | `logger.info(message)`    |
+| `lowkey.sus(message)`    | `logger.warn(message)`    |
+| `lowkey.cringe(message)` | `logger.err(message)`     |
+| `lowkey.drip(message)`   | `logger.detail(message)`  |
+| `lowkey.tea(message)`    | `logger.success(message)` |
+| `lowkey.flex(message)`   | `logger.success(message)` |
 
 ### Future APIs:
 
-- `future.letItCook((value) { ... }, ohnoes: () { ... })`: `future.then((value) { ... }, onError: () { ... })`
-- `future.busted((error) { ... })`: `future.catchError((error) { ... })`
+| With rizz                                               | No Rizz (original)                                  |
+|---------------------------------------------------------|-----------------------------------------------------|
+| `future.letItCook((value) { ... }, ohnoes: () { ... })` | `future.then((value) { ... }, onError: () { ... })` |
+| `future.busted((error) { ... })`                        | `future.catchError((error) { ... })`                |
 
 ### String APIs:
 
-- `'lets go FAM'.lowkey`: `letsgo fam`
-- `'lets go FAM'.lowkey`: `LETSGO FAM`
-- `'lets go FAM'.mock`: `lEtsgO Fam`
+| With rizz               | No Rizz (original)              |
+|-------------------------|---------------------------------|
+| `'lets go FAM'.lowkey`  | `lets go fam.toLowerCase()`     |
+| `'lets go FAM'.highkey` | `LETS GO FAM.toUpperCase()`     |
+| `'lets go FAM'.mock`    | `lEts gO Fam` (spOngE bOB case) |
 
 ### Other APIs:
 
-| API                                    | Equivalent                                       |
-|----------------------------------------|--------------------------------------------------|
+| With rizz                          | No Rizz (original)                           |
+|------------------------------------|----------------------------------------------|
 | ``` fr(assertion) ```              | ``` assert(assertion); ```                   |
 | ``` cook(value) ```                | ``` Future.value(value) ```                  |
 | ``` derp(error) ```                | ``` Future.error(error) ```                  |
@@ -76,8 +85,8 @@ Based on [Mason Logger][mason_logger]
 | ``` brb(Duration(seconds: 1)) ```  | ``` Future.delayed(Duration(seconds: 1)) ``` |
 | ``` typah(something) ```           | ``` Type typah<T>(T wat) => T ```            |
 
-
 ---
+
 [mason_logger]: https://pub.dev/packages/mason_logger
 [babel-silliness]: https://github.com/christina-de-martinez/babel-plugin-glowup-vibes
 [exit]: https://api.dart.dev/dart-io/exit.html
