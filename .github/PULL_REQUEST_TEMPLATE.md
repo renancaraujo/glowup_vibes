@@ -10,7 +10,7 @@
 
 **READY/IN DEVELOPMENT/HOLD**
 
-## Description
+## Deets
 
 <!--- Describe your changes in detail -->
 

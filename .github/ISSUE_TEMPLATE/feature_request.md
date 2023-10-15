@@ -1,18 +1,19 @@
 ---
 name: Feature Request
-about: A new feature to be added to the project
+about: How 'bout we consider adding a brand-new feature to the project? 🤔🌟
 title: "feat: "
 labels: feature
 ---
 
 **Description**
 
-Clearly describe what you are looking to add. The more context the better.
+Break it down nice and clear: Explain what you wanna toss in. The more details, the merrier. 📝🔍
 
 **Requirements**
 
-- [ ] Checklist of requirements to be fulfilled
+- [ ] Checklist of non-negotiables that gotta be met 📋🚀
 
 **Additional Context**
 
-Add any other context or screenshots about the feature request go here.
+Drop in any extra deets or screenshots for this feature request right here, fam. We wanna see the whole picture. 📸💬🖼️
+

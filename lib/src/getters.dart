@@ -22,7 +22,7 @@ int get nice => 69;
 double get outOfPocket => double.infinity;
 
 /// No big deal.
-Logger get lowkey => Logger();
+Logger get lowkey => RizzOverrides.rn?.lowkey ?? RizzOverrides.defaultLowkey;
 
 /// Pay respect.
 NSFW get F => yeet(Exception('Respect'));

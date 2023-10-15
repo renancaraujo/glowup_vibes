@@ -17,6 +17,14 @@ void main() {
 
   test('lowkey', () => expect(lowkey, isA<Logger>()));
 
+  test('lowkey override', () {
+    final fakeLowkey = Logger();
+    RizzOverrides.yolo(
+      lowkey: fakeLowkey,
+      () => expect(lowkey, same(fakeLowkey)),
+    );
+  });
+
   test('F', () => expect(() => F, throwsA(isA<Exception>())));
 
   test('imded', () {
