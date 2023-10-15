@@ -1,6 +1,6 @@
 name: glowup_vibes
 description: Dart language leveled up! With Glowup Vibes, we're infusing some "internet slang" into Dart's vocabulary.
-version: 1.0.0
+version: 1.0.1
 topics: [meme]
 repository: https://github.com/renancaraujo/glowup_vibes
 issue_tracker: https://github.com/renancaraujo/glowup_vibes/issues
