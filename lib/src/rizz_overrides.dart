@@ -9,6 +9,7 @@ const _asyncRunZoned = runZoned;
 abstract class RizzOverrides {
   static final _token = Object();
 
+  /// Default [lowkey].
   static final defaultLowkey = Logger();
 
   /// Right now.
@@ -23,9 +24,12 @@ abstract class RizzOverrides {
     Logger? lowkey,
   }) {
     final overrides = _RizzOverridesScope(exit, lowkey);
-    return _asyncRunZoned(body, zoneValues: {
-      _token: overrides,
-    });
+    return _asyncRunZoned(
+      body,
+      zoneValues: {
+        _token: overrides,
+      },
+    );
   }
 
   /// exit override rizz
