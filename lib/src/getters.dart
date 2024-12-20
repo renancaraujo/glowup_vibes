@@ -33,5 +33,8 @@ NSFW get imded => RizzOverrides.rn?.exit(1) ?? exit(1);
 /// Get outtahere.
 NSFW get ragequit => RizzOverrides.rn?.exit(nice) ?? exit(nice);
 
+/// Crash out
+NSFW get crashout => RizzOverrides.rn?.exit(-1) ?? exit(-1);
+
 /// 👋 Bai
 NSFW get cya => RizzOverrides.rn?.exit(0) ?? exit(0);
