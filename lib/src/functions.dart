@@ -39,5 +39,15 @@ Future<T> brb<T>(
   return Future.delayed(duration, computation);
 }
 
+/// Get it done, first one to finish.
+Future<T> getItDone<T>(Iterable<Future<T>> futures) {
+  return Future.any(futures);
+}
+
+/// Keep going until you hit the end.
+Future<void> keepAtIt(Future<bool> Function() condition) {
+  return Future.doWhile(condition);
+}
+
 /// Type of T.
 Type typah<T>(T wat) => T;
