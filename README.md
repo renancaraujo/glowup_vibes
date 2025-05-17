@@ -84,6 +84,9 @@ Based [Mason Logger][mason_logger]
 | ``` yeet(exception) ```            | ``` throw exception ```                      |
 | ``` brb(Duration(seconds: 1)) ```  | ``` Future.delayed(Duration(seconds: 1)) ``` |
 | ``` typah(something) ```           | ``` Type typah<T>(T wat) => T ```            |
+| ``` keepAtIt(condition) ```           | ``` Future.doWhile(condition) ```            |
+| ``` getItDone([future1, future2]) ``` | ``` Future.any([future1, future2]) ```            |
+
 
 ---
 
