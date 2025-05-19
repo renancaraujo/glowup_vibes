@@ -1,3 +1,8 @@
+# 1.0.2
+
+- feat: introduce async bangers — `getItDone` & `keepAtIt`, slangin' productivity
+- chore: some boring ass tests
+
 # 1.0.1
 
 - docs: spiced up README

@@ -1,7 +1,7 @@
 name: glowup_vibes
 description: Dart language leveled up! With Glowup Vibes, we're infusing some "internet slang" into Dart's vocabulary.
-version: 1.0.1
-topics: [meme]
+version: 1.0.2
+topics: [meme, nocap, ongod, rizz, vibe]
 repository: https://github.com/renancaraujo/glowup_vibes
 issue_tracker: https://github.com/renancaraujo/glowup_vibes/issues
 homepage: https://github.com/renancaraujo/glowup_vibes
@@ -10,10 +10,10 @@ environment:
   sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
-  mason_logger: ">=0.2.10 <0.4.0"
+  mason_logger: ^0.3.3
 
 dev_dependencies:
   mocktail: ^1.0.0
   test: ^1.19.2
-  very_good_analysis: ">=5.1.0 <7.0.0"
+  very_good_analysis: ^7.0.0
 
