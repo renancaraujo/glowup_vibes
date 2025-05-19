@@ -1,10 +1,11 @@
 name: example
 publish_to: none
 
-
 environment:
   sdk: '^3.1.0'
 
 dependencies:
   glowup_vibes:
     path: ../
+  mason_logger:
+  
