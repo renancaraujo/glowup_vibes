@@ -5,7 +5,7 @@ String? drippy(String? shout) {
   return yellow.wrap(styleBold.wrap(shout));
 }
 
-void vibeCheck() async {
+Future<void> vibeCheck() async {
   final vibe = noCap;
   final rizz = onGod;
   final depression = cap;
@@ -17,11 +17,11 @@ void vibeCheck() async {
     F;
   }
 
-  final wait = brb(Duration(seconds: 1));
+  final wait = brb<void>(const Duration(seconds: 1));
 
   final someCooking = cook(nice);
 
-  holdup([wait, someCooking])
+  await holdup([wait, someCooking])
       .letItCook((value) => lowkey.drip('Letisgo'))
       .busted(() {
     lowkey.cringe('yikes');
@@ -31,9 +31,9 @@ void vibeCheck() async {
 
   if (!vibe) {
     if (!rizz) {
-      yeet(Exception("mid af"));
+      yeet(Exception('mid af'));
     } else {
-      lowkey.drip("yikes fam");
+      lowkey.drip('yikes fam');
       ragequit;
     }
   } else {
@@ -41,7 +41,7 @@ void vibeCheck() async {
       lowkey.tea('you should talk to someone about that queen 👑');
       imded;
     }
-    lowkey.stan("profit");
+    lowkey.stan('profit');
   }
 
   cya;

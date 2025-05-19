@@ -36,6 +36,26 @@ void main() {
     expect(brb(Duration.zero, () => nice), completion(equals(nice)));
   });
 
+  test('getItDone', () {
+    expect(
+      getItDone([
+        brb(const Duration(milliseconds: 100), () => 1),
+        brb(const Duration(milliseconds: 50), () => 2),
+      ]),
+      completion(equals(2)),
+    );
+  });
+
+  test('keepAtIt', () {
+    var counter = 0;
+    final future = keepAtIt(() async {
+      counter++;
+      return counter < 3;
+    });
+    expect(future, completes);
+    expect(future.then((_) => counter), completion(equals(3)));
+  });
+
   test('typah', () {
     expect(typah(nice), equals(int));
     expect(typah('nice'), equals(String));
